@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:columnCount="3"
+        android:rowCount="3"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp">
+
+        <Button
+            android:id="@+id/cell0"
+            style="@style/TicTacToeCell"/>
+        <!-- Cell 1 -->
+        <Button
+            android:id="@+id/cell1"
+            style="@style/TicTacToeCell"/>
+
+        <!-- Cell 2 -->
+        <Button
+            android:id="@+id/cell2"
+            style="@style/TicTacToeCell"/>
+
+        <Button
+            android:id="@+id/cell3"
+            style="@style/TicTacToeCell"/>
+
+        <Button
+            android:id="@+id/cell4"
+            style="@style/TicTacToeCell"/>
+        <Button
+            android:id="@+id/cell5"
+            style="@style/TicTacToeCell"/>
+
+        <Button
+            android:id="@+id/cell7"
+            style="@style/TicTacToeCell"/>
+
+        <Button
+            android:id="@+id/cell8"
+            style="@style/TicTacToeCell"/>
+
+        <!-- Cell 9 -->
+        <Button
+            android:id="@+id/cell9"
+            style="@style/TicTacToeCell"/>
+
+
+
+    </GridLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Turn: "
+        android:id="@+id/whosTurn"
+
+        android:textSize="24sp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="32dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Player 1 Name"
+        android:id="@+id/player1Label"
+
+        android:textSize="24sp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="32dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Player 2 Name"
+        android:id="@+id/player2Label"
+        android:textSize="24sp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="32dp"/>
+
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset Board"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>
